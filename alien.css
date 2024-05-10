@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS for Outta This World Sweets*/
+
+	/* banner */
+	#banner {
+		text-align:left;
+		font-family:Helvetica;
+		padding:10px;
+		height:280px;
+		background-color:#525C9F;
+		background-image:url(alienbanner.jpg);
+		background-repeat:no-repeat;
+		background-position:top right;
+		border-bottom-width:12px;
+		border-bottom-color:#ffd58d;
+		border-bottom-style:solid;
+	}
+	
+	#banner h1{
+		color:white;
+		margin:0px;
+		font-size:90px;
+		padding-left:25px;
+		padding-top:25px;
+		text-align:left;
+	}
+	
+	#banner h2{
+		color:white;
+		font-size:20px;
+		font-variant:small-caps;
+		font-weight:bold;
+		padding-left:25px;
+	}
+	
+		*/headline rules/*
+	
+	h1, h2, h3 {
+		font-family: Helvetica,"Times New Roman";
+		font-weight:bold;
+	}
+	
+	h1 {
+		color:#43743D;
+		font-size:1.7em;
+	}
+	
+	h2 {
+		color:#000000;
+		font-size:1.2em;
+	}
+	
+	h3 {
+		color: #889A9C;
+		font-size: 1em;
+	}
+	
+	
+	
+	body { 
+		background-color:#ffe9b2;
+		color:white;
+		font-family:Verdana, Helvetica, Arial, sans-serif;
+		font-size: 0.9em;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#edges {
+		background-color:#FFFFFF;
+		color:black;
+		margin:30px;
+		background-image:url(backgroundgsq.jpg);
+		background-repeat:repeat-y;
+	}
+	
+	p {
+		padding-bottom:5px;
+	}
+	
+	/* hyperlink rules */
+	
+	a {
+		color:#029dab;
+	}	
+	
+	a:link {
+		color:#029dab;
+	}
+	
+	a:visited {
+		color:#014b63;
+	}
+	
+	a:hover {
+		color:#80B939;
+	}
+	
+	a:active {
+		color:#00a4db;
+	}
+	
+	/* Containers*/
+	
+	#main_content{
+		width:70%;
+		margin-top:25px;
+		margin-right:80px;
+		margin-left:15px;
+		padding-left:8px;
+		float:right;
+		background-color:#fff4fb;
+	}
+	#welcome h1{
+		background-color:#cca2d1;
+		width:740px;
+		height:50px;
+		color:#ffe9b2;
+		text-shadow: 2px 1px 2px #ff7fba;
+		padding:5px;
+		font-size:40px;
+		border:3px solid #525c9f;
+	}
+	
+	#sidebar{
+		float:left;
+		color:#525C9F;
+		background-color:#fff4fb;
+		margin-top:25px;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:small;
+		font-variant:small-caps;
+		line-height:1.4;
+		padding-right:40px;
+		padding-left:10px;
+		width:20%;
+		border-right: 2px #525C9F solid;
+	}
+	
+	#footer {
+		clear:both;
+		margin:0px;
+		font-size:x-small;
+		text-align:center;
+		color:#525C9F;
+		background-color:#ffd58d;
+		padding:10px;
+	}
+	
+	
+	
+		/*Navigation bar*/
+	#navigation ul{
+		margin:0px;
+		padding-left:45px;
+		font-size:16px;
+		font-variant:normal;
+		list-style-image: url(starbllt.jpg);
+	}
+	
+	#navigation li{
+		list-style-type:none;
+		font-weight:bold;
+		padding-top:10px;
+		padding-bottom:10px;	
+	}
+	
+	#navigation a{
+		color:#525c9f;
+		text-decoration:none;
+		cursor:pointer;
+		padding-left:8px;
+	}
+	
+	#navigation a:hover {
+		color:#ff7fba;
+		text-decoration:none;
+		border-bottom-width:1px;
+		border-bottom-style:solid;
+		border-bottom-color:#ff7fba;
+		border-left-width:1px;
+		border-left-style:solid;
+		border-left-color:#ff7fba;
+		padding-left:5px;
+		list-style-image:none;
+	}
